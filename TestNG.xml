@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <test name="Regression Test in Chrome">
+        <classes>
+        <class name="tests.CheckoutWithPositiveScenario">
+            <methods>
+                <include name = "LoginWithValidValues"/>
+                <include name = "productPageTest"/>
+                <include name = "ShoppingCartTest"/>
+                <include name = "checkOutTest"/>
+                <include name = "checkOutOverViewTest"/>
+                <include name = "checkOutCompleteTest"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
